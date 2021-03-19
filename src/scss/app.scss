@@ -193,6 +193,9 @@ body {
           margin-bottom: 8px;
           margin-top: 15px;
         }
+        @media (max-width: 530px) {
+          font-size: 22px;
+        }
       }
 
       p {
@@ -200,6 +203,9 @@ body {
         color: #8d8d8d;
         @media (max-width: 768px) {
           font-size: 22px;
+        }
+        @media (max-width: 530px) {
+          font-size: 18px;
         }
       }
     }
@@ -252,6 +258,9 @@ body {
         letter-spacing: 0.01em;
         @media (max-width: 768px) {
           font-size: 26px;
+        }
+        @media (max-width: 530px) {
+          font-size: 22px;
         }
       }
     }
@@ -306,6 +315,9 @@ body {
 
       span {
         font-size: 22px;
+        @media (max-width: 530px) {
+          font-size: 15px;
+        }
 
         &:last-of-type {
           b {
@@ -325,6 +337,9 @@ body {
         align-items: center;
         justify-content: center;
         width: 210px;
+        @media (max-width: 530px) {
+          max-width: 40%;
+        }
 
         border-color: darken($color: $gray-line, $amount: 10);
 
@@ -332,6 +347,9 @@ body {
           color: darken($color: $gray-line, $amount: 20);
           font-weight: 500;
           font-weight: 600;
+          @media (max-width: 530px) {
+            font-size: 14px;
+          }
         }
 
         &:hover {
@@ -357,6 +375,11 @@ body {
         font-weight: 600;
         width: 210px;
         padding: 16px;
+        @media (max-width: 530px) {
+          font-size: 14px;
+          max-width: 40%;
+          padding: 0;
+        }
       }
     }
   }
